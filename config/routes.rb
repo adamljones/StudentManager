@@ -1,4 +1,16 @@
 StudentManager::Application.routes.draw do
+  resources :forms
+
+  resources :steps
+
+  resources :techniques
+
+  resources :sashes
+
+  resources :students
+
+  resources :instructors
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

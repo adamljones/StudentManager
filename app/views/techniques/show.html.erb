@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sash:</strong>
+  <%= @technique.sash_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @technique.name %>
+</p>
+
+<p>
+  <strong>Scenario:</strong>
+  <%= @technique.scenario %>
+</p>
+
+<%= link_to 'Edit', edit_technique_path(@technique) %> |
+<%= link_to 'Back', techniques_path %>
