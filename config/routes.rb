@@ -1,4 +1,8 @@
 StudentManager::Application.routes.draw do
+  resources :pattern_types
+
+  resources :patterns
+
   resources :forms
 
   resources :steps
