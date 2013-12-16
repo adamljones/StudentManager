@@ -15,6 +15,8 @@ StudentManager::Application.routes.draw do
 
   resources :instructors
 
+  get 'form2' => 'static_pages#form2'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
